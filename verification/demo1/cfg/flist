@@ -1,0 +1,7 @@
++incdir+../src
++incdir+../ver/top
++incdir+../ver/tb
+
+#/home/designer/work/prj_ram/src/ram.v
+#/home/designer/work/prj_ram/ver/top/top.sv
+#/home/designer/work/prj_ram/ver/tb/tb.sv
