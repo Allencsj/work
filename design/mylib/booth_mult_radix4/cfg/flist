@@ -1,0 +1,5 @@
++incdir+../src
++incdir+../tb
+
+../src/booth_radix4.sv
+../tb/tb.sv

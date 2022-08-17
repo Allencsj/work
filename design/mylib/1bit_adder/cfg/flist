@@ -1,0 +1,5 @@
++incdir+../src
++incdir+../tb
+
+../src/1bit_adder.sv
+../tb/tb.sv

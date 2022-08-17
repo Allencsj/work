@@ -1,0 +1,9 @@
+#!/bin/sh -h 
+PYTHONHOME=/tools/Synopsys/vcs_vO-2018.09-SP2/vcs/O-2018.09-SP2/etc/search/pyh
+export PYTHONHOME
+PYTHONPATH=/tools/Synopsys/vcs_vO-2018.09-SP2/vcs/O-2018.09-SP2/linux64/lib/pylib27
+export PYTHONPATH
+LD_LIBRARY_PATH=/tools/Synopsys/vcs_vO-2018.09-SP2/vcs/O-2018.09-SP2/linux64/lib:/tools/Synopsys/vcs_vO-2018.09-SP2/vcs/O-2018.09-SP2/linux64/lib/pylib27
+export LD_LIBRARY_PATH
+/tools/Synopsys/vcs_vO-2018.09-SP2/vcs/O-2018.09-SP2/linux64/bin/vcsfind_create_index.exe  -z  "/home/designer/work/design/lib/nbit_divider/run/simv.daidir/debug_dump/fsearch/./idents_1oEPHG.xml.gz" "/home/designer/work/design/lib/nbit_divider/run/simv.daidir/debug_dump/fsearch/./idents_tapi.xml.gz" -o "/home/designer/work/design/lib/nbit_divider/run/simv.daidir/debug_dump/fsearch/fsearch.db_tmp"
+\mv "/home/designer/work/design/lib/nbit_divider/run/simv.daidir/debug_dump/fsearch/fsearch.db_tmp" "/home/designer/work/design/lib/nbit_divider/run/simv.daidir/debug_dump/fsearch/fsearch.db"

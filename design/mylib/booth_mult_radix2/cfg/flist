@@ -1,0 +1,7 @@
++incdir+../src
++incdir+../tb
+
+../src/booth_mult.sv
+../src/ctrlpath.sv
+../src/datapath.sv
+../tb/tb.sv

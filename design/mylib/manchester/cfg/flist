@@ -1,0 +1,6 @@
++incdir+../src
++incdir+../ver/top
++incdir+../ver/tb
+
+../src/manch_en.sv
+../tb/tb.sv

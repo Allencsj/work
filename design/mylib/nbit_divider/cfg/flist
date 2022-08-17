@@ -1,0 +1,5 @@
++incdir+../src
++incdir+../ver/tb
+
+../src/divider.sv
+../tb/tb.sv
