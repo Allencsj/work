@@ -1,0 +1,11 @@
++incdir+../src
++incdir+../tb
+
+../src/eth_rcv_fsm.sv
+../src/eth_sw.sv
+../src/fifo.sv
+../tb/packet_tb_top.sv
+
+#/home/designer/work/prj_ram/src/ram.v
+#/home/designer/work/prj_ram/ver/top/top.sv
+#/home/designer/work/prj_ram/ver/tb/tb.sv
