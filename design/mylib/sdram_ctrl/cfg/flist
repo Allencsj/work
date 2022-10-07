@@ -1,0 +1,13 @@
++incdir+../src
++incdir+../tb
+
+../src/sdram_top.sv
+../src/sdram_init.sv
+../src/sdram_ctrl.sv
+../src/sdram_arb.sv
+../src/sdram_write.sv
+../src/sdram_read.sv
+../src/sdram_aref.sv
+../tb/tb.sv
+../tb/mt48lc2m32b2.v
+

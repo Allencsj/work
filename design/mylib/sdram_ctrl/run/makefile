@@ -21,7 +21,7 @@ run_cov: compile_coverage simulate_coverage
 #target:
 #[tab] command
 compile :
-	vcs -full64 -sverilog -timescale=1ns/1ns -debug_acc+all -file ../cfg/flist -l logs/$(LOG_COM) +$(TEST)
+	vcs -full64 -sverilog -timescale=1ns/1ps -debug_acc+all -file ../cfg/flist -l logs/$(LOG_COM) +$(TEST)
 
 simulate :
 	./simv -l logs/$(LOG_CASE) $(waves)  +postprocess +$(TEST)
