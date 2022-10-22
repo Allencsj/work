@@ -1,10 +1,6 @@
 +incdir+../src
 +incdir+../tb
 
-../src/counter.sv
-../tb/counter_if.sv
-../tb/counter_pkg.sv
-//../tb/test.sv
-../tb/top.sv
-../tb/counter_assertion.sv
+../src/async_fifo.sv
+../tb/tb.sv
 

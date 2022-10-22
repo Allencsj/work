@@ -1,0 +1,10 @@
++incdir+../src
++incdir+../tb
+
+../src/uart_rx.sv
+//../tb/uart_rx_tb.sv
+../src/uart_tx.sv
+../src/uart.sv
+../src/async_fifo.sv
+../tb/uart_tb.sv
+

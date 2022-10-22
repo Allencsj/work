@@ -1,0 +1,16 @@
+module apb_slave_test(
+    input                   pclk
+    ,input                  prestn
+    ,input                  psel
+    ,input                  penable
+    ,input                  pwrite
+    ,input [15:0]           paddr
+    ,input [31:0]           pwdata
+    ,output [31:0]          prdata
+    ,output [31:0]          r0
+    ,output [31:0]          r1
+    ,output [31:0]          r2
+
+);
+
+endmodule
