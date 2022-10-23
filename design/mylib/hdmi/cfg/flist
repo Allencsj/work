@@ -1,0 +1,7 @@
++incdir+../src
++incdir+../tb
+
+//../src/hdmi_drive_bk.sv
+../src/hdmi_drive.sv
+../tb/tb.sv
+
